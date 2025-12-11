@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+
+# Env
+*.env
+/backend/.env
+/frontend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Build outputs
+/frontend/build
+/backend/dist
+
+# OS
+Thumbs.db
+desktop.ini

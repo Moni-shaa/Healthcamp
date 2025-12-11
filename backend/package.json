@@ -1,0 +1,24 @@
+{
+  "name": "healthcamp-backend",
+  "version": "1.0.0",
+  "description": "Health Camp Registration System backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --watch src",
+    "migrate": "node -r dotenv/config src/scripts/runMigrations.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
